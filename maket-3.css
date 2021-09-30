@@ -1,0 +1,90 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.global{
+    display: flex;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    height: 500px; 
+    width: 400px;
+    position: relative;
+    margin-top: 350px;
+    margin-left: 50px;
+    /* border: 1px solid red; */
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    background-size: cover;
+}
+.ZAC{
+    height:65%; 
+    width: 60%; 
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 500px;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 400px;
+}
+.format{
+    right: 25px;
+    top: 350px;
+    position: absolute;
+    float: right;
+    /* border: 1px solid black; */
+  }
+
+  .action:active{
+    transform: translate(0, 5px);
+    -webkit-transform: translate(0, 5px);
+    border-bottom:  1px solid;
+}
+
+.action{
+  color: #000;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  float: right;
+}
+
+.text-centre{
+    left: 580px;
+    top: 100px;
+    position: absolute;
+    float: right;
+}
+.text-gauche{
+    left: 100px;
+    top: 50px;
+    position: absolute;
+    float: right;
+}
+
+.menu-gauche{
+    left: 95px;
+    top: 10px;
+    position: absolute;
+    float: left;
+    /* border: 1px solid black; */
+    }
+
+    .menu-droit{
+        right: 10px;
+        top: 10px;
+        position: absolute;
+        float: right;
+        display: flex; 
+        justify-content: center;
+        justify-content: space-around;
+        width: 15%;
+        /* border: 1px solid black; */
+      }
